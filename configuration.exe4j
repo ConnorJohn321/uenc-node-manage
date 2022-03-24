@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="7.0" transformSequenceNumber="3">
+  <directoryPresets config="E:/矿机管理平台" />
+  <application name="mill-client" distributionSourceDir="E:/矿机管理平台" />
+  <executable name="矿机管理平台" wrapperType="embed" iconSet="true" iconFile="E:/矿机管理平台/favicon.ico" executableDir="." redirectStderr="false" executableMode="console" singleInstance="true" />
+  <splashScreen bitmapFile="E:/矿机管理平台/finish.png" />
+  <java mainClass="org.springframework.boot.loader.JarLauncher" minVersion="1.7" maxVersion="1.8">
+    <searchSequence>
+      <directory location="./jre" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/weimiCode/矿机管理工具/mill-client/target/mill-client-1.0.jar" failOnError="false" />
+    </classPath>
+    <vmOptions>
+      <options version="&quot;1.8*&quot;" line="-Xmx1024m" />
+    </vmOptions>
+  </java>
+</exe4j>
